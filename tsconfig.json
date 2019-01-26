@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "newLine": "lf",
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "baseUrl": "./src",
+    "paths": {
+      "@components": ["components/index.tsx"],
+      "@containers": ["containers/index.tsx"],
+      "@constants": ["constants/index.tsx"],
+      "@pages": ["pages/index.tsx"],
+      "@sagas": ["sagas/index.tsx"],
+      "@reducers": ["reducers/index.tsx"],
+      "@actions": ["actions/index.tsx"],
+      "@utils": ["utils/index.tsx"],
+    }
+  },
+  "include": [
+    "src"
+  ]
+}
